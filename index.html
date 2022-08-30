@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>3 Glitching Dudes</title>
+    <style>
+      .dudes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        max-width: 700px;
+        margin: 2rem auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dudes">
+      <img
+        src="dude-1.svg"
+        class="dude glitch-1"
+        alt="Dude 1 with blue hair glitching out"
+      />
+      <img
+        src="dude-1.svg"
+        class="dude glitch-2"
+        alt="Dude 2 with blue hair glitching out"
+      />
+      <img
+        src="dude-1.svg"
+        class="dude glitch-3"
+        alt="Dude 3 with blue hair glitching out"
+      />
+    </div>
+    <script src="dist/app.js"></script>
+  </body>
+</html>
